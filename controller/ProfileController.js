@@ -212,7 +212,7 @@ exports.add_profile_info = function(req, res) {
             });
         });
     } catch(e) {
-        logger.log(_LOG_LEVEL, 'XXXXXXXXXXXXXX');
+
     }
 
 };
