@@ -1,0 +1,2 @@
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/q1azwsxedcrfvtgbyhnujmazwsxedcrfvrfvz<<END","timestamp":"Jan 09 2015 13:04:53"}
+{"level":"info","message":"ProfileController - get_profile_info error - parameter size not valid.37","timestamp":"Jan 09 2015 13:04:53"}

@@ -1,0 +1,100 @@
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/1azwsxedcrfvtgbyhnujmazwsxedcrfvrfvz<<END","timestamp":"Jan 05 2015 12:53:45"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/q1azwsxedcrfvtgbyhnujmazwsxedcrfvrfvz<<END","timestamp":"Jan 05 2015 12:56:02"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/q1azwsxedcrfvtgbyhnujmazwsxedcrfvrfvz<<END","timestamp":"Jan 05 2015 12:56:52"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/q1azwsxedcrfvtgbyhnujmazwsxedcrfvrfvz<<END","timestamp":"Jan 05 2015 12:57:28"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/111123123<<END","timestamp":"Jan 05 2015 12:58:21"}
+{"level":"info","message":"ProfileController - get_profile_info error - parameter size not valid.9","timestamp":"Jan 05 2015 12:58:21"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/qazwsxedcrfvtgbyhnujmazwsxedcrfvrfvz<<END","timestamp":"Jan 05 2015 12:59:04"}
+{"level":"info","message":"36","timestamp":"Jan 05 2015 12:59:04"}
+{"level":"info","message":"ProfileController - get_profile_info error - parameter size not valid.36","timestamp":"Jan 05 2015 12:59:04"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/qazwsxedcrfvtgbyhnujmazwsxedcrfvrfvz<<END","timestamp":"Jan 05 2015 12:59:43"}
+{"level":"info","message":"36","timestamp":"Jan 05 2015 12:59:43"}
+{"level":"info","message":"ProfileController - get_profile_info error - parameter size not valid.36","timestamp":"Jan 05 2015 12:59:43"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/qazwsxedcrfvtgbyhnujmazwsxedcrfvrfvz<<END","timestamp":"Jan 05 2015 13:00:21"}
+{"level":"info","message":"36","timestamp":"Jan 05 2015 13:00:21"}
+{"level":"info","message":"[Request] Method : POST, URL : /v1/profile<<END","timestamp":"Jan 05 2015 13:04:43"}
+{"level":"info","message":"profile_key : afdasdfasdfasfasfdasfda","timestamp":"Jan 05 2015 13:04:43"}
+{"level":"info","message":"uuid : fa910640-948f-11e4-93b9-6d4a509593af","timestamp":"Jan 05 2015 13:04:43"}
+{"level":"info","message":"[Request] Method : POST, URL : /v1/profile<<END","timestamp":"Jan 05 2015 13:17:33"}
+{"level":"info","message":"uuid : c5684030-9491-11e4-9058-eb56a311987e","timestamp":"Jan 05 2015 13:17:33"}
+{"level":"info","message":"[Request] Method : POST, URL : /v1/profile<<END","timestamp":"Jan 05 2015 13:18:05"}
+{"level":"info","message":"uuid : d8cbef50-9491-11e4-9daa-175c96551ecd","timestamp":"Jan 05 2015 13:18:05"}
+{"level":"info","message":"INSERT INTO profile(profile_key, email, last_name, first_name, gender, salary, access_type , is_user, passwd, email_auth_process, overview, enroll_status, avail_loc, is_freelancer , regdate) VALUES ('d8cbef50-9491-11e4-9daa-175c96551ecd', 'tori0530@naver.com', '효석', '김', 'M', 10000, 'ET', 'U', password('z1z2z3z4'), 'A', '자기소개', 20, 3, 'Y', now())","timestamp":"Jan 05 2015 13:18:05"}
+{"level":"info","message":"[Request] Method : POST, URL : /v1/profile<<END","timestamp":"Jan 05 2015 13:20:20"}
+{"level":"info","message":"uuid : 292f9dc0-9492-11e4-b42f-7320472f9772","timestamp":"Jan 05 2015 13:20:20"}
+{"level":"info","message":"INSERT INTO profile(profile_key, email, last_name, first_name, gender, salary, access_type , is_user, passwd, email_auth_process, overview, enroll_status, avail_loc, is_freelancer , regdate) VALUES ('292f9dc0-9492-11e4-b42f-7320472f9772', 'tori0530@naver.com', '효석', '김', 'M', 10000, 'ET', 'U', password('z1z2z3z4'), 'A', '자기소개', 20, 3, 'Y', now())","timestamp":"Jan 05 2015 13:20:20"}
+{"level":"info","message":"[Request] Method : POST, URL : /v1/profile<<END","timestamp":"Jan 05 2015 13:21:23"}
+{"level":"info","message":"uuid : 4ece0c60-9492-11e4-a881-63eb03e1dde2","timestamp":"Jan 05 2015 13:21:23"}
+{"level":"info","message":"INSERT INTO profile(profile_key, email, last_name, first_name, gender, salary, access_type , is_user, passwd, email_auth_process, overview, enroll_status, avail_loc, is_freelancer , regdate) VALUES ('4ece0c60-9492-11e4-a881-63eb03e1dde2', 'tori0530@daum.com', '정원', '김', 'M', 10000, 'ET', 'U', password('z1z2z3z4'), 'A', '자기소개', 20, 3, 'Y', now())","timestamp":"Jan 05 2015 13:21:23"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/<<END","timestamp":"Jan 05 2015 16:03:19"}
+{"level":"info","message":"SELECT profile_key, email, last_name, first_name, gender, salary, access_type, is_user , email_auth_process, enroll_status, avail_loc, is_freelancer, regdate, moddate FROM profile WHERE 1=1 AND ORDER BY first_name ASC LIMIT 1, 10 ","timestamp":"Jan 05 2015 16:03:19"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/<<END","timestamp":"Jan 05 2015 16:04:30"}
+{"level":"info","message":"SELECT profile_key, email, last_name, first_name, gender, salary, access_type, is_user , email_auth_process, enroll_status, avail_loc, is_freelancer, regdate, moddate FROM profile WHERE 1=1 ORDER BY first_name ASC LIMIT 1, 10 ","timestamp":"Jan 05 2015 16:04:30"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/<<END","timestamp":"Jan 05 2015 16:07:57"}
+{"level":"info","message":"SELECT profile_key, email, last_name, first_name, gender, salary, access_type, is_user , email_auth_process, enroll_status, avail_loc, is_freelancer, regdate, moddate FROM profile WHERE 1=1 AND first_name LIKE '정원%'ORDER BY first_name ASC LIMIT 1, 10 ","timestamp":"Jan 05 2015 16:07:57"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/<<END","timestamp":"Jan 05 2015 16:11:35"}
+{"level":"info","message":"SELECT profile_key, email, last_name, first_name, concat(last_name, first_name) AS full_name, gender, salary, access_type, is_user , email_auth_process, enroll_status, avail_loc, is_freelancer, regdate, moddate FROM profile WHERE 1=1 AND full_name LIKE '정원%'ORDER BY first_name ASC LIMIT 1, 10 ","timestamp":"Jan 05 2015 16:11:35"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/<<END","timestamp":"Jan 05 2015 16:12:08"}
+{"level":"info","message":"SELECT profile_key, email, last_name, first_name, concat(last_name, first_name) AS full_name, gender, salary, access_type, is_user , email_auth_process, enroll_status, avail_loc, is_freelancer, regdate, moddate FROM profile WHERE 1=1 AND full_name LIKE '정원%' ORDER BY first_name ASC LIMIT 1, 10 ","timestamp":"Jan 05 2015 16:12:08"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/<<END","timestamp":"Jan 05 2015 16:15:03"}
+{"level":"info","message":"SELECT profile_key, email, last_name, first_name, concat(last_name, first_name) AS full_name, gender, salary, access_type, is_user , email_auth_process, enroll_status, avail_loc, is_freelancer, regdate, moddate FROM profile WHERE 1=1 AND last_name LIKE '정원%' ORDER BY first_name ASC LIMIT 1, 10 ","timestamp":"Jan 05 2015 16:15:03"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/<<END","timestamp":"Jan 05 2015 16:19:05"}
+{"level":"info","message":"SELECT profile_key, email, last_name, first_name, concat(last_name, first_name) AS full_name, gender, salary, access_type, is_user , email_auth_process, enroll_status, avail_loc, is_freelancer, regdate, moddate FROM profile WHERE 1=1 AND last_name LIKE '정원%' ORDER BY first_name ASC LIMIT 0, 10 ","timestamp":"Jan 05 2015 16:19:05"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/<<END","timestamp":"Jan 05 2015 16:19:39"}
+{"level":"info","message":"SELECT profile_key, email, last_name, first_name, concat(last_name, first_name) AS full_name, gender, salary, access_type, is_user , email_auth_process, enroll_status, avail_loc, is_freelancer, regdate, moddate FROM profile WHERE 1=1 AND first_name LIKE '정원%' ORDER BY first_name ASC LIMIT 0, 10 ","timestamp":"Jan 05 2015 16:19:39"}
+{"level":"info","message":"[Request] Method : POST, URL : /v1/profile/292f9dc0-9492-11e4-b42f-7320472f9772<<END","timestamp":"Jan 05 2015 16:28:09"}
+{"level":"info","message":"[Request] Method : POST, URL : /v1/profile/292f9dc0-9492-11e4-b42f-7320472f9772<<END","timestamp":"Jan 05 2015 16:32:00"}
+{"level":"info","message":"UPDATE profile SET email='tori0530@daum.com', full_name='이영림', gender='M', salary=8300, access_type='ET', is_user='U', email_auth_process='A', overview='자기소개', enroll_status=20, avail_loc=3, is_freelancer='Y' WHERE profile_key='292f9dc0-9492-11e4-b42f-7320472f9772'","timestamp":"Jan 05 2015 16:32:00"}
+{"level":"info","message":"[Request] Method : POST, URL : /v1/profile/292f9dc0-9492-11e4-b42f-7320472f9772<<END","timestamp":"Jan 05 2015 16:33:54"}
+{"level":"info","message":"UPDATE profile SET email='tori0530@daumx.com', full_name='이영림', gender='M', salary=8300, access_type='ET', is_user='U', email_auth_process='A', overview='자기소개', enroll_status=20, avail_loc=3, is_freelancer='Y' WHERE profile_key='292f9dc0-9492-11e4-b42f-7320472f9772'","timestamp":"Jan 05 2015 16:33:54"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/email/toriworks@gmail.com<<END","timestamp":"Jan 05 2015 16:47:33"}
+{"level":"info","message":"SELECT COUNT(0) cnt FROM profile WHERE email='toriworks@gmail.com'","timestamp":"Jan 05 2015 16:47:33"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/email/toriworks@gmail.com<<END","timestamp":"Jan 05 2015 16:47:59"}
+{"level":"info","message":"SELECT COUNT(0) cnt FROM profile WHERE email='toriworks@gmail.com'","timestamp":"Jan 05 2015 16:47:59"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/email/toriworks@gmail.com<<END","timestamp":"Jan 05 2015 16:48:36"}
+{"level":"info","message":"SELECT COUNT(0) cnt FROM profile WHERE email='toriworks@gmail.com'","timestamp":"Jan 05 2015 16:48:36"}
+{"level":"info","message":"email dup_cnt : undefined","timestamp":"Jan 05 2015 16:48:36"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/email/toriworks@gmail.com<<END","timestamp":"Jan 05 2015 16:49:59"}
+{"level":"info","message":"SELECT COUNT(0) cnt FROM profile WHERE email='toriworks@gmail.com'","timestamp":"Jan 05 2015 16:49:59"}
+{"level":"info","message":"email dup_cnt : undefined","timestamp":"Jan 05 2015 16:49:59"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/email/toriworks@gmail.com<<END","timestamp":"Jan 05 2015 16:50:44"}
+{"level":"info","message":"SELECT COUNT(0) cnt FROM profile WHERE email='toriworks@gmail.com'","timestamp":"Jan 05 2015 16:50:44"}
+{"level":"info","message":"email dup_cnt : undefined","timestamp":"Jan 05 2015 16:50:44"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/email/toriworks@gmail.com<<END","timestamp":"Jan 05 2015 16:55:25"}
+{"level":"info","message":"SELECT COUNT(0) cnt FROM profile WHERE email='toriworks@gmail.com'","timestamp":"Jan 05 2015 16:55:25"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/email/toriworks@gmail.com<<END","timestamp":"Jan 05 2015 16:58:10"}
+{"level":"info","message":"SELECT COUNT(0) cnt FROM profile WHERE email='toriworks@gmail.com'","timestamp":"Jan 05 2015 16:58:10"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/email/toriworks@gmail.com<<END","timestamp":"Jan 05 2015 17:06:01"}
+{"level":"info","message":"SELECT COUNT(0) cnt FROM profile WHERE email='toriworks@gmail.com'","timestamp":"Jan 05 2015 17:06:01"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/email/tori0530@daum.com<<END","timestamp":"Jan 05 2015 17:07:47"}
+{"level":"info","message":"SELECT COUNT(0) cnt FROM profile WHERE email='tori0530@daum.com'","timestamp":"Jan 05 2015 17:07:47"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/?cur_page=1<<END","timestamp":"Jan 05 2015 17:10:09"}
+{"level":"info","message":"SELECT profile_key, email, full_name, gender, salary, access_type, is_user , email_auth_process, enroll_status, avail_loc, is_freelancer, regdate, moddate FROM profile WHERE 1=1 AND full_name LIKE '정원%' ORDER BY first_name ASC LIMIT 0, 10 ","timestamp":"Jan 05 2015 17:10:09"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/?cur_page=1&order_field=first_name&order_type=ASC&search_type=full_name&search_text=%EC%A0%95%EC%9B%90<<END","timestamp":"Jan 05 2015 17:11:39"}
+{"level":"info","message":"SELECT profile_key, email, full_name, gender, salary, access_type, is_user , email_auth_process, enroll_status, avail_loc, is_freelancer, regdate, moddate FROM profile WHERE 1=1 AND full_name LIKE '정원%' ORDER BY first_name ASC LIMIT NaN, 10 ","timestamp":"Jan 05 2015 17:11:39"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/?cur_page=1&order_field=first_name&order_type=ASC&search_type=full_name&search_text=%EC%A0%95%EC%9B%90<<END","timestamp":"Jan 05 2015 17:12:28"}
+{"level":"info","message":"SELECT profile_key, email, full_name, gender, salary, access_type, is_user , email_auth_process, enroll_status, avail_loc, is_freelancer, regdate, moddate FROM profile WHERE 1=1 AND full_name LIKE '정원%' ORDER BY first_name ASC LIMIT 0, 10 ","timestamp":"Jan 05 2015 17:12:28"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/?cur_page=2&order_field=first_name&order_type=ASC&search_type=full_name&search_text=%EC%A0%95%EC%9B%90<<END","timestamp":"Jan 05 2015 17:13:24"}
+{"level":"info","message":"SELECT profile_key, email, full_name, gender, salary, access_type, is_user , email_auth_process, enroll_status, avail_loc, is_freelancer, regdate, moddate FROM profile WHERE 1=1 AND full_name LIKE '정원%' ORDER BY first_name ASC  LIMIT 1, 10 ","timestamp":"Jan 05 2015 17:13:24"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/?cur_page=2&order_field=full_name&order_type=DESC<<END","timestamp":"Jan 05 2015 17:15:05"}
+{"level":"info","message":"SELECT profile_key, email, full_name, gender, salary, access_type, is_user , email_auth_process, enroll_status, avail_loc, is_freelancer, regdate, moddate FROM profile WHERE 1=1 AND undefined LIKE 'undefined%' ORDER BY full_name DESC  LIMIT 1, 10 ","timestamp":"Jan 05 2015 17:15:05"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/?cur_page=2&order_field=full_name&order_type=DESC<<END","timestamp":"Jan 05 2015 17:15:59"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/?cur_page=2&order_field=full_name&order_type=DESC<<END","timestamp":"Jan 05 2015 17:16:31"}
+{"level":"info","message":"SELECT profile_key, email, full_name, gender, salary, access_type, is_user , email_auth_process, enroll_status, avail_loc, is_freelancer, regdate, moddate FROM profile WHERE 1=1 AND undefined LIKE 'undefined%' ORDER BY full_name DESC  LIMIT 1, 10 ","timestamp":"Jan 05 2015 17:16:31"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/?cur_page=2&order_field=full_name&order_type=DESC<<END","timestamp":"Jan 05 2015 17:16:46"}
+{"level":"info","message":"SELECT profile_key, email, full_name, gender, salary, access_type, is_user , email_auth_process, enroll_status, avail_loc, is_freelancer, regdate, moddate FROM profile WHERE 1=1 AND undefined LIKE 'undefined%' ORDER BY full_name DESC  LIMIT 1, 10 ","timestamp":"Jan 05 2015 17:16:46"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/?cur_page=2&order_field=full_name&order_type=DESC&search_type&search_text<<END","timestamp":"Jan 05 2015 17:17:34"}
+{"level":"info","message":"SELECT profile_key, email, full_name, gender, salary, access_type, is_user , email_auth_process, enroll_status, avail_loc, is_freelancer, regdate, moddate FROM profile WHERE 1=1 ORDER BY full_name DESC  LIMIT 1, 10 ","timestamp":"Jan 05 2015 17:17:34"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/?cur_page=2&order_field=full_name&order_type=DESC&search_type&search_text<<END","timestamp":"Jan 05 2015 17:18:09"}
+{"level":"info","message":"LENGTH : 0","timestamp":"Jan 05 2015 17:18:09"}
+{"level":"info","message":"SELECT profile_key, email, full_name, gender, salary, access_type, is_user , email_auth_process, enroll_status, avail_loc, is_freelancer, regdate, moddate FROM profile WHERE 1=1 ORDER BY full_name DESC  LIMIT 1, 10 ","timestamp":"Jan 05 2015 17:18:09"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/?cur_page=2&order_field=full_name&order_type=DESC&search_type&search_text<<END","timestamp":"Jan 05 2015 17:19:02"}
+{"level":"info","message":"SELECT profile_key, email, full_name, gender, salary, access_type, is_user , email_auth_process, enroll_status, avail_loc, is_freelancer, regdate, moddate FROM profile WHERE 1=1 ORDER BY full_name DESC  LIMIT 1, 10 ","timestamp":"Jan 05 2015 17:19:02"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/?email=kimhyoseok@kolon.com&full_name=%EA%B9%80%ED%9A%A8%EC%84%9D&gender=F&salary=12000&access_type=ET&is_user=U&passwd=z1z2z3z4&email_auth_process=B&overview=%EC%9E%90%EA%B8%B0%EC%86%8C%EA%B0%9C%EC%9E%85%EB%8B%88%EB%8B%A4.&enroll_status=20&avail_loc=3&is_freelancer=Y<<END","timestamp":"Jan 05 2015 17:32:58"}
+{"level":"info","message":"SELECT profile_key, email, full_name, gender, salary, access_type, is_user , email_auth_process, enroll_status, avail_loc, is_freelancer, regdate, moddate FROM profile WHERE 1=1 AND undefined LIKE 'undefined%' ORDER BY undefined undefined  LIMIT NaN, 10 ","timestamp":"Jan 05 2015 17:32:58"}
+{"level":"info","message":"[Request] Method : POST, URL : /v1/profile/?email=kimhyoseok@kolon.com&full_name=%EA%B9%80%ED%9A%A8%EC%84%9D&gender=F&salary=12000&access_type=ET&is_user=U&passwd=z1z2z3z4&email_auth_process=B&overview=%EC%9E%90%EA%B8%B0%EC%86%8C%EA%B0%9C%EC%9E%85%EB%8B%88%EB%8B%A4.&enroll_status=20&avail_loc=3&is_freelancer=Y<<END","timestamp":"Jan 05 2015 17:35:08"}
+{"level":"info","message":"uuid : c16f0f30-94b5-11e4-a398-356003bbee9d","timestamp":"Jan 05 2015 17:35:08"}
+{"level":"info","message":"INSERT INTO profile(profile_key, email, full_name, gender, salary, access_type , is_user, passwd, email_auth_process, overview, enroll_status, avail_loc, is_freelancer , regdate) VALUES ('c16f0f30-94b5-11e4-a398-356003bbee9d', 'kimhyoseok@kolon.com', '김효석', 'F', 12000, 'ET', 'U', password('z1z2z3z4'), 'B', '자기소개입니다.', 20, 3, 'Y', now())","timestamp":"Jan 05 2015 17:35:08"}
+{"level":"info","message":"[Request] Method : POST, URL : /v1/profile/?email=kimhyoseok1@kolon.com&full_name=%EA%B9%80%ED%9A%A8%EC%84%9D&gender=F&salary=12000&access_type=ET&is_user=U&passwd=z1z2z3z4&email_auth_process=B&overview=%EC%9E%90%EA%B8%B0%EC%86%8C%EA%B0%9C%EC%9E%85%EB%8B%88%EB%8B%A4.&enroll_status=20&avail_loc=3&is_freelancer=Y<<END","timestamp":"Jan 05 2015 17:35:51"}
+{"level":"info","message":"uuid : db733730-94b5-11e4-ac80-b1430fcc8dfc","timestamp":"Jan 05 2015 17:35:51"}
+{"level":"info","message":"INSERT INTO profile(profile_key, email, full_name, gender, salary, access_type , is_user, passwd, email_auth_process, overview, enroll_status, avail_loc, is_freelancer , regdate) VALUES ('db733730-94b5-11e4-ac80-b1430fcc8dfc', 'kimhyoseok1@kolon.com', '김효석', 'F', 12000, 'ET', 'U', password('z1z2z3z4'), 'B', '자기소개입니다.', 20, 3, 'Y', now())","timestamp":"Jan 05 2015 17:35:51"}

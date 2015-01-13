@@ -1,0 +1,52 @@
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/?email=kimhyoseok@kolon.com&full_name=%EA%B9%80%ED%9A%A8%EC%84%9D&gender=F&salary=12000&access_type=ET&is_user=U&passwd=z1z2z3z4&email_auth_process=B&overview=%EC%9E%90%EA%B8%B0%EC%86%8C%EA%B0%9C%EC%9E%85%EB%8B%88%EB%8B%A4.&enroll_status=20&avail_loc=3&is_freelancer=Y<<END","timestamp":"Jan 12 2015 19:27:26"}
+{"level":"info","message":"[ProfileController - get_profile_lists]SELECT profile_key, email, full_name, gender, salary, access_type, is_user , email_auth_process, enroll_status, avail_loc, is_freelancer, regdate, moddate FROM profile WHERE 1=1  LIMIT 0, 10 ","timestamp":"Jan 12 2015 19:27:26"}
+{"level":"info","message":"[Request] Method : POST, URL : /v1/profile/b51698b0-9a47-11e4-a7ed-975cc8aeebe1<<END","timestamp":"Jan 12 2015 19:46:38"}
+{"level":"info","message":"UPDATE profile SET email='toriworks@naver.com', full_name='홍길순', gender='F', salary=9999, access_type='ET', is_user='U', email_auth_process='A', overview='오버뷰', enroll_status=30, avail_loc=8, is_freelancer='N' WHERE profile_key='undefined'","timestamp":"Jan 12 2015 19:46:38"}
+{"level":"info","message":"[Request] Method : POST, URL : /v1/profile/b51698b0-9a47-11e4-a7ed-975cc8aeebe1<<END","timestamp":"Jan 12 2015 19:47:16"}
+{"level":"info","message":"UPDATE profile SET email='toriworks@naver.com', full_name='홍길순', gender='F', salary=9999, access_type='ET', is_user='U', email_auth_process='A', overview='오버뷰', enroll_status=30, avail_loc=8, is_freelancer='N' WHERE profile_key='b51698b0-9a47-11e4-a7ed-975cc8aeebe1'","timestamp":"Jan 12 2015 19:47:16"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/292f9dc0-91492-11e4-b42f-7320472f9772<<END","timestamp":"Jan 12 2015 19:59:47"}
+{"level":"info","message":"ProfileController - get_profile_info error - parameter size not valid.37","timestamp":"Jan 12 2015 19:59:47"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/292f9dc0-91492-11e4-b42f-7320472f9772<<END","timestamp":"Jan 12 2015 20:06:07"}
+{"level":"info","message":"ProfileController - get_profile_info error - parameter size not valid.37","timestamp":"Jan 12 2015 20:06:07"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/292f9dc0-91492-11e4-b42f-7320472f9772<<END","timestamp":"Jan 12 2015 20:07:01"}
+{"level":"info","message":"ProfileController - get_profile_info error - parameter size not valid.37","timestamp":"Jan 12 2015 20:07:01"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/292f9dc0-91492-11e4-b42f-7320472f9772<<END","timestamp":"Jan 12 2015 20:07:28"}
+{"level":"info","message":"ProfileController - get_profile_info error - parameter size not valid.37","timestamp":"Jan 12 2015 20:07:28"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/292f9dc0-91492-11e4-b42f-7320472f9772<<END","timestamp":"Jan 12 2015 20:08:28"}
+{"level":"info","message":"ProfileController - get_profile_info error - parameter size not valid.37","timestamp":"Jan 12 2015 20:08:28"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/292f9dc0-91492-11e4-b42f-7320472f9772<<END","timestamp":"Jan 12 2015 20:09:28"}
+{"level":"info","message":"ProfileController - get_profile_info error - parameter size not valid.37","timestamp":"Jan 12 2015 20:09:28"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/292f9dc0-91492-11e4-b42f-7320472f9772<<END","timestamp":"Jan 12 2015 20:09:59"}
+{"level":"info","message":"ProfileController - get_profile_info error - parameter size not valid.37","timestamp":"Jan 12 2015 20:09:59"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/292f9dc0-91492-11e4-b42f-7320472f9772<<END","timestamp":"Jan 12 2015 20:10:43"}
+{"level":"info","message":"ProfileController - get_profile_info error - parameter size not valid.37","timestamp":"Jan 12 2015 20:10:43"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/292f9dc0-91492-11e4-b42f-7320472f9772<<END","timestamp":"Jan 12 2015 20:11:27"}
+{"level":"info","message":"ProfileController - get_profile_info error - parameter size not valid.37","timestamp":"Jan 12 2015 20:11:27"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/292f9dc0-91492-11e4-b42f-7320472f9772<<END","timestamp":"Jan 12 2015 20:11:52"}
+{"level":"info","message":"ProfileController - get_profile_info error - parameter size not valid.37","timestamp":"Jan 12 2015 20:11:52"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/292f9dc0-91492-11e4-b42f-7320472f9772<<END","timestamp":"Jan 12 2015 20:12:08"}
+{"level":"info","message":"ProfileController - get_profile_info error - parameter size not valid.37","timestamp":"Jan 12 2015 20:12:08"}
+{"level":"info","message":"","timestamp":"Jan 12 2015 20:12:08"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/292f9dc0-91492-11e4-b42f-7320472f9772<<END","timestamp":"Jan 12 2015 20:12:35"}
+{"level":"info","message":"ProfileController - get_profile_info error - parameter size not valid.37","timestamp":"Jan 12 2015 20:12:35"}
+{"level":"info","message":"ret-->[object Object]<end","timestamp":"Jan 12 2015 20:12:35"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/292f9dc0-91492-11e4-b42f-7320472f9772<<END","timestamp":"Jan 12 2015 20:13:13"}
+{"level":"info","message":"ProfileController - get_profile_info error - parameter size not valid.37","timestamp":"Jan 12 2015 20:13:13"}
+{"level":"info","message":"ret-->\"header\":{\"if_id\":\"IF_V1_0001\", \"req_time\":2015-01-12 08:13:13\"}<end","timestamp":"Jan 12 2015 20:13:13"}
+{"level":"info","message":"ret-->[object Object]<end","timestamp":"Jan 12 2015 20:13:13"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/292f9dc0-91492-11e4-b42f-7320472f9772<<END","timestamp":"Jan 12 2015 20:13:46"}
+{"level":"info","message":"ProfileController - get_profile_info error - parameter size not valid.37","timestamp":"Jan 12 2015 20:13:46"}
+{"level":"info","message":"ret-->\"header\":{\"if_id\":\"IF_V1_0001\", \"req_time\":\"2015-01-12 08:13:46\"}<end","timestamp":"Jan 12 2015 20:13:46"}
+{"level":"info","message":"ret-->[object Object]<end","timestamp":"Jan 12 2015 20:13:46"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/292f9dc0-91492-11e4-b42f-7320472f9772<<END","timestamp":"Jan 12 2015 20:14:23"}
+{"level":"info","message":"ProfileController - get_profile_info error - parameter size not valid.37","timestamp":"Jan 12 2015 20:14:23"}
+{"level":"info","message":"ret-->\"header\":{\"if_id\":\"IF_V1_0001\", \"req_time\":\"2015-01-12 08:14:23\"}<end","timestamp":"Jan 12 2015 20:14:23"}
+{"level":"info","message":"","timestamp":"Jan 12 2015 20:14:23"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/292f9dc0-91492-11e4-b42f-7320472f9772<<END","timestamp":"Jan 12 2015 20:15:04"}
+{"level":"info","message":"ProfileController - get_profile_info error - parameter size not valid.37","timestamp":"Jan 12 2015 20:15:04"}
+{"level":"info","message":"ret-->\"header\":{\"if_id\":\"IF_V1_0001\", \"req_time\":\"2015-01-12 08:15:04\"}<end","timestamp":"Jan 12 2015 20:15:04"}
+{"level":"info","message":"","timestamp":"Jan 12 2015 20:15:04"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/292f9dc0-91492-11e4-b42f-7320472f9772<<END","timestamp":"Jan 12 2015 20:16:07"}
+{"level":"info","message":"ProfileController - get_profile_info error - parameter size not valid.37","timestamp":"Jan 12 2015 20:16:07"}
+{"level":"info","message":"ret-->\"header\":{\"if_id\":\"IF_V1_0001\", \"req_time\":\"2015-01-12 08:16:07\"}<end","timestamp":"Jan 12 2015 20:16:07"}
+{"level":"info","message":"","timestamp":"Jan 12 2015 20:16:07"}

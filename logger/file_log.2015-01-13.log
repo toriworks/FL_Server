@@ -1,0 +1,183 @@
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/292f9dc0-9492-11e4-b42f-7320472f9772<<END","timestamp":"Jan 13 2015 12:35:04"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/292f9dc0-9492-11e4-b42f-7320472f9772?timestamp=20151023103345&hmac=abcdefg<<END","timestamp":"Jan 13 2015 12:35:50"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/292f9dc0-9492-11e4-b42f-7320472f9772?timestamp=20151023103345&hmac=abcdefg<<END","timestamp":"Jan 13 2015 12:37:45"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/292f9dc0-9492-11e4-b42f-7320472f9772?timestamp=20151023103345&hmac=abcdefg<<END","timestamp":"Jan 13 2015 12:39:05"}
+{"level":"info","message":"timestamp : 20151023103345, hmac : abcdefg","timestamp":"Jan 13 2015 12:39:05"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/292f9dc0-9492-11e4-b42f-7320472f9772?timestamp=20151023103345&hmac=abcdefg<<END","timestamp":"Jan 13 2015 12:39:38"}
+{"level":"info","message":"timestamp : 20151023103345, hmac : abcdefg","timestamp":"Jan 13 2015 12:39:38"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/292f9dc0-9492-11e4-b42f-7320472f9772?timestamp=1234123141241231&hmac=Ad7uIBUq0jciGj7Okq8EIfZ5kvKXvKTkIX7h53Wl2f4=<<END","timestamp":"Jan 13 2015 18:55:30"}
+{"level":"info","message":"timestamp : 1234123141241231, hmac : Ad7uIBUq0jciGj7Okq8EIfZ5kvKXvKTkIX7h53Wl2f4=","timestamp":"Jan 13 2015 18:55:30"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/292f9dc0-9492-11e4-b42f-7320472f9772?timestamp=1234123141241231&hmac=Ad7uIBUq0jciGj7Okq8EIfZ5kvKXvKTkIX7h53Wl2f4=<<END","timestamp":"Jan 13 2015 18:56:36"}
+{"level":"info","message":"timestamp : 1234123141241231, hmac : Ad7uIBUq0jciGj7Okq8EIfZ5kvKXvKTkIX7h53Wl2f4=","timestamp":"Jan 13 2015 18:56:36"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/292f9dc0-9492-11e4-b42f-7320472f9772?timestamp=1234123141241231&hmac=Ad7uIBUq0jciGj7Okq8EIfZ5kvKXvKTkIX7h53Wl2f4=<<END","timestamp":"Jan 13 2015 18:57:40"}
+{"level":"info","message":"timestamp : 1234123141241231, hmac : Ad7uIBUq0jciGj7Okq8EIfZ5kvKXvKTkIX7h53Wl2f4=","timestamp":"Jan 13 2015 18:57:40"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/292f9dc0-9492-11e4-b42f-7320472f9772?timestamp=1234123141241231&hmac=Ad7uIBUq0jciGj7Okq8EIfZ5kvKXvKTkIX7h53Wl2f4=<<END","timestamp":"Jan 13 2015 18:58:38"}
+{"level":"info","message":"timestamp : 1234123141241231, hmac : Ad7uIBUq0jciGj7Okq8EIfZ5kvKXvKTkIX7h53Wl2f4=","timestamp":"Jan 13 2015 18:58:38"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/292f9dc0-9492-11e4-b42f-7320472f9772?timestamp=1234123141241231&hmac=Ad7uIBUq0jciGj7Okq8EIfZ5kvKXvKTkIX7h53Wl2f4=<<END","timestamp":"Jan 13 2015 18:59:19"}
+{"level":"info","message":"timestamp : 1234123141241231, hmac : Ad7uIBUq0jciGj7Okq8EIfZ5kvKXvKTkIX7h53Wl2f4=","timestamp":"Jan 13 2015 18:59:19"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/292f9dc0-9492-11e4-b42f-7320472f9772?timestamp=1234123141241231&hmac=Ad7uIBUq0jciGj7Okq8EIfZ5kvKXvKTkIX7h53Wl2f4=<<END","timestamp":"Jan 13 2015 18:59:29"}
+{"level":"info","message":"timestamp : 1234123141241231, hmac : Ad7uIBUq0jciGj7Okq8EIfZ5kvKXvKTkIX7h53Wl2f4=","timestamp":"Jan 13 2015 18:59:29"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/292f9dc0-9492-11e4-b42f-7320472f9772?timestamp=1234123141241231&hmac=Ad7uIBUq0jciGj7Okq8EIfZ5kvKXvKTkIX7h53Wl2f4=<<END","timestamp":"Jan 13 2015 19:00:19"}
+{"level":"info","message":"timestamp : 1234123141241231, hmac : Ad7uIBUq0jciGj7Okq8EIfZ5kvKXvKTkIX7h53Wl2f4=","timestamp":"Jan 13 2015 19:00:19"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/292f9dc0-9492-11e4-b42f-7320472f9772?timestamp=1234123141241231&hmac=Ad7uIBUq0jciGj7Okq8EIfZ5kvKXvKTkIX7h53Wl2f4=<<END","timestamp":"Jan 13 2015 19:00:58"}
+{"level":"info","message":"timestamp : 1234123141241231, hmac : Ad7uIBUq0jciGj7Okq8EIfZ5kvKXvKTkIX7h53Wl2f4=","timestamp":"Jan 13 2015 19:00:58"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/292f9dc0-9492-11e4-b42f-7320472f9772?timestamp=1234123141241231&hmac=Ad7uIBUq0jciGj7Okq8EIfZ5kvKXvKTkIX7h53Wl2f4=<<END","timestamp":"Jan 13 2015 19:01:22"}
+{"level":"info","message":"timestamp : 1234123141241231, hmac : Ad7uIBUq0jciGj7Okq8EIfZ5kvKXvKTkIX7h53Wl2f4=","timestamp":"Jan 13 2015 19:01:22"}
+{"level":"info","message":">>>123|123123123123123<<<","timestamp":"Jan 13 2015 19:01:23"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/292f9dc0-9492-11e4-b42f-7320472f9772?timestamp=1234123141241231&hmac=Ad7uIBUq0jciGj7Okq8EIfZ5kvKXvKTkIX7h53Wl2f4=<<END","timestamp":"Jan 13 2015 19:02:13"}
+{"level":"info","message":"timestamp : 1234123141241231, hmac : Ad7uIBUq0jciGj7Okq8EIfZ5kvKXvKTkIX7h53Wl2f4=","timestamp":"Jan 13 2015 19:02:13"}
+{"level":"info","message":">>>5db8583693d07960c616c979d06d44fc<<<","timestamp":"Jan 13 2015 19:02:13"}
+{"level":"info","message":">>>original_text<<<","timestamp":"Jan 13 2015 19:02:13"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/292f9dc0-9492-11e4-b42f-7320472f9772?timestamp=1234123141241231&hmac=Ad7uIBUq0jciGj7Okq8EIfZ5kvKXvKTkIX7h53Wl2f4=<<END","timestamp":"Jan 13 2015 19:03:27"}
+{"level":"info","message":"timestamp : 1234123141241231, hmac : Ad7uIBUq0jciGj7Okq8EIfZ5kvKXvKTkIX7h53Wl2f4=","timestamp":"Jan 13 2015 19:03:27"}
+{"level":"info","message":">>>5db8583693d07960c616c979d06d44fc<<<","timestamp":"Jan 13 2015 19:03:27"}
+{"level":"info","message":">>>original_text<<<","timestamp":"Jan 13 2015 19:03:27"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/292f9dc0-9492-11e4-b42f-7320472f9772?timestamp=1234123141241231&hmac=Ad7uIBUq0jciGj7Okq8EIfZ5kvKXvKTkIX7h53Wl2f4=<<END","timestamp":"Jan 13 2015 19:04:32"}
+{"level":"info","message":"timestamp : 1234123141241231, hmac : Ad7uIBUq0jciGj7Okq8EIfZ5kvKXvKTkIX7h53Wl2f4=","timestamp":"Jan 13 2015 19:04:32"}
+{"level":"info","message":">>>5364849afe39cde59b55cb7e6d689272<<<","timestamp":"Jan 13 2015 19:04:32"}
+{"level":"info","message":">>>original_text<<<","timestamp":"Jan 13 2015 19:04:32"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/292f9dc0-9492-11e4-b42f-7320472f9772?timestamp=1234123141241231&hmac=5364849afe39cde59b55cb7e6d689272=<<END","timestamp":"Jan 13 2015 19:06:09"}
+{"level":"info","message":"timestamp : 1234123141241231, hmac : 5364849afe39cde59b55cb7e6d689272=","timestamp":"Jan 13 2015 19:06:09"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/292f9dc0-9492-11e4-b42f-7320472f9772?timestamp=1234123141241231&hmac=5364849afe39cde59b55cb7e6d689272=<<END","timestamp":"Jan 13 2015 19:06:43"}
+{"level":"info","message":"timestamp : 1234123141241231, hmac : 5364849afe39cde59b55cb7e6d689272=","timestamp":"Jan 13 2015 19:06:43"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/292f9dc0-9492-11e4-b42f-7320472f9772?timestamp=1234123141241231&hmac=5364849afe39cde59b55cb7e6d689272<<END","timestamp":"Jan 13 2015 19:09:18"}
+{"level":"info","message":"timestamp : 1234123141241231, hmac : 5364849afe39cde59b55cb7e6d689272","timestamp":"Jan 13 2015 19:09:18"}
+{"level":"info","message":">>> OMG <<<","timestamp":"Jan 13 2015 19:09:18"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/292f9dc0-9492-11e4-b42f-7320472f9772?timestamp=1234123141241231&hmac=5364849afe39cde59b55cb7e6d689272<<END","timestamp":"Jan 13 2015 19:09:50"}
+{"level":"info","message":"timestamp : 1234123141241231, hmac : 5364849afe39cde59b55cb7e6d689272","timestamp":"Jan 13 2015 19:09:50"}
+{"level":"info","message":">>>original_text<<<","timestamp":"Jan 13 2015 19:09:50"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/292f9dc0-9492-11e4-b42f-7320472f9772?timestamp=1234123141241231&hmac=5364849afe39cde59b55cb7e6d689272<<END","timestamp":"Jan 13 2015 19:11:47"}
+{"level":"info","message":"timestamp : 1234123141241231, hmac : 5364849afe39cde59b55cb7e6d689272","timestamp":"Jan 13 2015 19:11:47"}
+{"level":"info","message":">>>030afc7666fe98ffbb0438692f6195d5a6506a9e15e4a053062ed835979dbf1c<<<","timestamp":"Jan 13 2015 19:11:47"}
+{"level":"info","message":">>> OMG <<<","timestamp":"Jan 13 2015 19:11:47"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/292f9dc0-9492-11e4-b42f-7320472f9772?timestamp=1234123141241231&hmac=5364849afe39cde59b55cb7e6d689272<<END","timestamp":"Jan 13 2015 19:12:36"}
+{"level":"info","message":"timestamp : 1234123141241231, hmac : 5364849afe39cde59b55cb7e6d689272","timestamp":"Jan 13 2015 19:12:36"}
+{"level":"info","message":">>>030afc7666fe98ffbb0438692f6195d5a6506a9e15e4a053062ed835979dbf1c<<<","timestamp":"Jan 13 2015 19:12:36"}
+{"level":"info","message":">>> OMG <<<","timestamp":"Jan 13 2015 19:12:36"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/292f9dc0-9492-11e4-b42f-7320472f9772?timestamp=1234123141241231&hmac=5364849afe39cde59b55cb7e6d689272<<END","timestamp":"Jan 13 2015 19:13:07"}
+{"level":"info","message":"timestamp : 1234123141241231, hmac : 5364849afe39cde59b55cb7e6d689272","timestamp":"Jan 13 2015 19:13:07"}
+{"level":"info","message":">>>CRY:030afc7666fe98ffbb0438692f6195d5a6506a9e15e4a053062ed835979dbf1c<<<","timestamp":"Jan 13 2015 19:13:07"}
+{"level":"info","message":">>> OMG <<<","timestamp":"Jan 13 2015 19:13:07"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/292f9dc0-9492-11e4-b42f-7320472f9772?timestamp=1234123141241231&hmac=5364849afe39cde59b55cb7e6d689272<<END","timestamp":"Jan 13 2015 19:13:25"}
+{"level":"info","message":"timestamp : 1234123141241231, hmac : 5364849afe39cde59b55cb7e6d689272","timestamp":"Jan 13 2015 19:13:25"}
+{"level":"info","message":">>>CRY:030afc7666fe98ffbb0438692f6195d5a6506a9e15e4a053062ed835979dbf1c<<<","timestamp":"Jan 13 2015 19:13:25"}
+{"level":"info","message":">>>DEC:original_text<<<","timestamp":"Jan 13 2015 19:13:25"}
+{"level":"info","message":">>> OMG <<<","timestamp":"Jan 13 2015 19:13:25"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/292f9dc0-9492-11e4-b42f-7320472f9772?timestamp=1234123141241231&hmac=U2FsdGVkX19H0VYtXButrJrR9vVIcXUHcPrL5HWzbxY=<<END","timestamp":"Jan 13 2015 19:20:11"}
+{"level":"info","message":"timestamp : 1234123141241231, hmac : U2FsdGVkX19H0VYtXButrJrR9vVIcXUHcPrL5HWzbxY=","timestamp":"Jan 13 2015 19:20:11"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/292f9dc0-9492-11e4-b42f-7320472f9772?timestamp=1234123141241231&hmac=U2FsdGVkX19QX/xh2Isn/wVDvJhXCLVGabX78sStlhmXtiVurnMelT47sNPIK4+M<<END","timestamp":"Jan 13 2015 19:30:44"}
+{"level":"info","message":"timestamp : 1234123141241231, hmac : U2FsdGVkX19QX/xh2Isn/wVDvJhXCLVGabX78sStlhmXtiVurnMelT47sNPIK4 M","timestamp":"Jan 13 2015 19:30:44"}
+{"level":"info","message":">>>DEC:<<<","timestamp":"Jan 13 2015 19:30:44"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/292f9dc0-9492-11e4-b42f-7320472f9772?timestamp=1234123141241231&hmac=U2FsdGVkX19QX/xh2Isn/wVDvJhXCLVGabX78sStlhmXtiVurnMelT47sNPIK4+M<<END","timestamp":"Jan 13 2015 19:32:29"}
+{"level":"info","message":"timestamp : 1234123141241231, hmac : U2FsdGVkX19QX/xh2Isn/wVDvJhXCLVGabX78sStlhmXtiVurnMelT47sNPIK4 M","timestamp":"Jan 13 2015 19:32:29"}
+{"level":"info","message":">>>DEC:<<<","timestamp":"Jan 13 2015 19:32:29"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/292f9dc0-9492-11e4-b42f-7320472f9772?timestamp=1234123141241231&hmac=U2FsdGVkX1824mA8uBJ51sMITLlf9R6c8YnWmaXr+OQWduJdoWExpdaHI30/fUn6<<END","timestamp":"Jan 13 2015 19:33:47"}
+{"level":"info","message":"timestamp : 1234123141241231, hmac : U2FsdGVkX1824mA8uBJ51sMITLlf9R6c8YnWmaXr OQWduJdoWExpdaHI30/fUn6","timestamp":"Jan 13 2015 19:33:47"}
+{"level":"info","message":">>>DEC:2ceda88c97205d6472e4243013dcedfa<<<","timestamp":"Jan 13 2015 19:33:47"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/292f9dc0-9492-11e4-b42f-7320472f9772?timestamp=1234123141241231&hmac=U2FsdGVkX1824mA8uBJ51sMITLlf9R6c8YnWmaXr+OQWduJdoWExpdaHI30/fUn6<<END","timestamp":"Jan 13 2015 19:34:15"}
+{"level":"info","message":"timestamp : 1234123141241231, hmac : U2FsdGVkX1824mA8uBJ51sMITLlf9R6c8YnWmaXr OQWduJdoWExpdaHI30/fUn6","timestamp":"Jan 13 2015 19:34:15"}
+{"level":"info","message":">>>DEC:31323334313233313431323431323331<<<","timestamp":"Jan 13 2015 19:34:15"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/292f9dc0-9492-11e4-b42f-7320472f9772?timestamp=1234123141241231&hmac=U2FsdGVkX1824mA8uBJ51sMITLlf9R6c8YnWmaXr+OQWduJdoWExpdaHI30/fUn6<<END","timestamp":"Jan 13 2015 19:34:38"}
+{"level":"info","message":"timestamp : 1234123141241231, hmac : U2FsdGVkX1824mA8uBJ51sMITLlf9R6c8YnWmaXr OQWduJdoWExpdaHI30/fUn6","timestamp":"Jan 13 2015 19:34:38"}
+{"level":"info","message":">>>DEC:1234123141241231<<<","timestamp":"Jan 13 2015 19:34:38"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/292f9dc0-9492-11e4-b42f-7320472f9772?timestamp=1234123141241231&hmac=U2FsdGVkX1905PkEqHjr1dS+xH3BXfgBfkUg2+ocdBM2XpfisfTuUpaaTDmciFj2<<END","timestamp":"Jan 13 2015 19:40:56"}
+{"level":"info","message":">>>>timestamp=1234123141241231&hmac=U2FsdGVkX1905PkEqHjr1dS+xH3BXfgBfkUg2+ocdBM2XpfisfTuUpaaTDmciFj2<<<<","timestamp":"Jan 13 2015 19:40:56"}
+{"level":"info","message":"timestamp : 1234123141241231, hmac : U2FsdGVkX1905PkEqHjr1dS xH3BXfgBfkUg2 ocdBM2XpfisfTuUpaaTDmciFj2","timestamp":"Jan 13 2015 19:40:56"}
+{"level":"info","message":">>>DEC:1234123141241231<<<","timestamp":"Jan 13 2015 19:40:56"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/292f9dc0-9492-11e4-b42f-7320472f9772?timestamp=1234123141241231&hmac=U2FsdGVkX1905PkEqHjr1dS+xH3BXfgBfkUg2+ocdBM2XpfisfTuUpaaTDmciFj2<<END","timestamp":"Jan 13 2015 19:41:36"}
+{"level":"info","message":">>>>undefined<<<<","timestamp":"Jan 13 2015 19:41:36"}
+{"level":"info","message":"timestamp : 1234123141241231, hmac : U2FsdGVkX1905PkEqHjr1dS xH3BXfgBfkUg2 ocdBM2XpfisfTuUpaaTDmciFj2","timestamp":"Jan 13 2015 19:41:36"}
+{"level":"info","message":">>>DEC:1234123141241231<<<","timestamp":"Jan 13 2015 19:41:36"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/292f9dc0-9492-11e4-b42f-7320472f9772?timestamp=1234123141241231&hmac=U2FsdGVkX1905PkEqHjr1dS+xH3BXfgBfkUg2+ocdBM2XpfisfTuUpaaTDmciFj2<<END","timestamp":"Jan 13 2015 19:42:39"}
+{"level":"info","message":">>>>timestamp=1234123141241231&hmac=U2FsdGVkX1905PkEqHjr1dS+xH3BXfgBfkUg2+ocdBM2XpfisfTuUpaaTDmciFj2<<<<","timestamp":"Jan 13 2015 19:42:39"}
+{"level":"info","message":"timestamp : 1234123141241231, hmac : U2FsdGVkX1905PkEqHjr1dS xH3BXfgBfkUg2 ocdBM2XpfisfTuUpaaTDmciFj2","timestamp":"Jan 13 2015 19:42:39"}
+{"level":"info","message":">>>DEC:1234123141241231<<<","timestamp":"Jan 13 2015 19:42:39"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/292f9dc0-9492-11e4-b42f-7320472f9772?timestamp=1234123141241231&hmac=U2FsdGVkX1905PkEqHjr1dS+xH3BXfgBfkUg2+ocdBM2XpfisfTuUpaaTDmciFj2<<END","timestamp":"Jan 13 2015 19:43:56"}
+{"level":"info","message":">>>>timestamp=1234123141241231&hmac=U2FsdGVkX1905PkEqHjr1dS+xH3BXfgBfkUg2+ocdBM2XpfisfTuUpaaTDmciFj2<<<<","timestamp":"Jan 13 2015 19:43:56"}
+{"level":"info","message":"timestamp : 1234123141241231, hmac : U2FsdGVkX1905PkEqHjr1dS xH3BXfgBfkUg2 ocdBM2XpfisfTuUpaaTDmciFj2","timestamp":"Jan 13 2015 19:43:56"}
+{"level":"info","message":">>>DEC:1234123141241231<<<","timestamp":"Jan 13 2015 19:43:56"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/292f9dc0-9492-11e4-b42f-7320472f9772?timestamp=1234123141241231&hmac=U2FsdGVkX1905PkEqHjr1dS+xH3BXfgBfkUg2+ocdBM2XpfisfTuUpaaTDmciFj2<<END","timestamp":"Jan 13 2015 19:44:14"}
+{"level":"info","message":">>>>timestamp=1234123141241231&hmac=U2FsdGVkX1905PkEqHjr1dS+xH3BXfgBfkUg2+ocdBM2XpfisfTuUpaaTDmciFj2<<<<","timestamp":"Jan 13 2015 19:44:14"}
+{"level":"info","message":"timestamp : 1234123141241231, hmac : hmac=U2FsdGVkX1905PkEqHjr1dS+xH3BXfgBfkUg2+ocdBM2XpfisfTuUpaaTDmciFj2","timestamp":"Jan 13 2015 19:44:14"}
+{"level":"info","message":">>>DEC:1234123141241231<<<","timestamp":"Jan 13 2015 19:44:14"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/292f9dc0-9492-11e4-b42f-7320472f9772?timestamp=1234123141241231&hmac=U2FsdGVkX1905PkEqHjr1dS+xH3BXfgBfkUg2+ocdBM2XpfisfTuUpaaTDmciFj2<<END","timestamp":"Jan 13 2015 19:45:01"}
+{"level":"info","message":"timestamp : 1234123141241231, hmac : hmac=U2FsdGVkX1905PkEqHjr1dS+xH3BXfgBfkUg2+ocdBM2XpfisfTuUpaaTDmciFj2","timestamp":"Jan 13 2015 19:45:01"}
+{"level":"info","message":">>>DEC:<<<","timestamp":"Jan 13 2015 19:45:01"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/292f9dc0-9492-11e4-b42f-7320472f9772?timestamp=1234123141241231&hmac=U2FsdGVkX1/CnjD5oLiBKINhXQuWydLWn7nx00niU+OgcMQKnWqzIfFdbR8OkzSx<<END","timestamp":"Jan 13 2015 19:48:15"}
+{"level":"info","message":"timestamp : 1234123141241231, hmac : hmac=U2FsdGVkX1/CnjD5oLiBKINhXQuWydLWn7nx00niU+OgcMQKnWqzIfFdbR8OkzSx<<END","timestamp":"Jan 13 2015 19:48:15"}
+{"level":"info","message":">>>DEC:<<<","timestamp":"Jan 13 2015 19:48:15"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/292f9dc0-9492-11e4-b42f-7320472f9772?timestamp=1234123141241231&hmac=U2FsdGVkX1/CnjD5oLiBKINhXQuWydLWn7nx00niU+OgcMQKnWqzIfFdbR8OkzSx<<END","timestamp":"Jan 13 2015 19:48:50"}
+{"level":"info","message":"timestamp : 1234123141241231, hmac : U2FsdGVkX1/CnjD5oLiBKINhXQuWydLWn7nx00niU+OgcMQKnWqzIfFdbR8OkzSx<<END","timestamp":"Jan 13 2015 19:48:51"}
+{"level":"info","message":">>>DEC:1234123141241231<<<","timestamp":"Jan 13 2015 19:48:51"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/aaaaaaaaaabcdefghijklmnopqrstuvwxyz?interface_id=IF_V1_0001&timestamp=201501223459821<<END","timestamp":"Jan 13 2015 23:14:24"}
+{"level":"info","message":"timestamp : 201501223459821, hmac : /v1/profile/aaaaaaaaaabcdefghijklmnopqrstuvwxyz?interface_id=IF_V1_0001&timestamp=201501223459821<<END","timestamp":"Jan 13 2015 23:14:24"}
+{"level":"info","message":">>>DEC:<<<","timestamp":"Jan 13 2015 23:14:24"}
+{"level":"info","message":"ProfileController - get_profile_info error - parameter size not valid.35","timestamp":"Jan 13 2015 23:14:24"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/aaaaaaaaaabcdefghijklmnopqrstuvwxyz?interface_id=IF_V1_0001&timestamp=201501223459821<<END","timestamp":"Jan 13 2015 23:16:11"}
+{"level":"info","message":"timestamp : 201501223459821, hmac : /v1/profile/aaaaaaaaaabcdefghijklmnopqrstuvwxyz?interface_id=IF_V1_0001&timestamp=201501223459821<<END","timestamp":"Jan 13 2015 23:16:11"}
+{"level":"info","message":">>>DEC:<<<","timestamp":"Jan 13 2015 23:16:11"}
+{"level":"info","message":"같지 않음","timestamp":"Jan 13 2015 23:16:11"}
+{"level":"info","message":"ProfileController - get_profile_info error - parameter size not valid.35","timestamp":"Jan 13 2015 23:16:11"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/292f9dc0-9492-11e4-b42f-7320472f9772?timestamp=1421158905570&hmac=U2FsdGVkX1+i5uvWqIeNPLeXgEMusxlTO55639/mvKM=<<END","timestamp":"Jan 13 2015 23:21:47"}
+{"level":"info","message":"timestamp : 1421158905570, hmac : U2FsdGVkX1+i5uvWqIeNPLeXgEMusxlTO55639/mvKM=<<END","timestamp":"Jan 13 2015 23:21:47"}
+{"level":"info","message":">>>DEC:1421158905570<<<","timestamp":"Jan 13 2015 23:21:47"}
+{"level":"info","message":"같지 않음","timestamp":"Jan 13 2015 23:21:47"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/292f9dc0-9492-11e4-b42f-7320472f9772?timestamp=1421158987778&hmac=U2FsdGVkX19l0NtWZK93JsWnfhV+tNTav4V7xennUh8=<<END","timestamp":"Jan 13 2015 23:23:09"}
+{"level":"info","message":"timestamp : 1421158987778, hmac : U2FsdGVkX19l0NtWZK93JsWnfhV+tNTav4V7xennUh8=<<END","timestamp":"Jan 13 2015 23:23:09"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/292f9dc0-9492-11e4-b42f-7320472f9772?timestamp=1421158987778&hmac=U2FsdGVkX19l0NtWZK93JsWnfhV+tNTav4V7xennUh8=<<END","timestamp":"Jan 13 2015 23:23:44"}
+{"level":"info","message":"timestamp : 1421158987778, hmac : U2FsdGVkX19l0NtWZK93JsWnfhV+tNTav4V7xennUh8=<<END","timestamp":"Jan 13 2015 23:23:44"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/292f9dc0-9492-11e4-b42f-7320472f9772?timestamp=1421159045002&hmac=U2FsdGVkX18fHxYng3kKLCCSaD8rze3u6nPMbLDAVps=<<END","timestamp":"Jan 13 2015 23:24:06"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/292f9dc0-9492-11e4-b42f-7320472f9772?timestamp=1421159045002&hmac=U2FsdGVkX18fHxYng3kKLCCSaD8rze3u6nPMbLDAVps=<<END","timestamp":"Jan 13 2015 23:25:41"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/292f9dc0-9492-11e4-b42f-7320472f9772?timestamp=1421159218897&hmac=U2FsdGVkX1/d3YWUbGp6w9LysAgbtvZW1h0T9tm3ipM=<<END","timestamp":"Jan 13 2015 23:27:00"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/292f9dc0-9492-11e4-b42f-7320472f9772?timestamp=1421159244882&hmac=U2FsdGVkX1/U0/N2TOKea1gH1cyUtEnbIj4IeI6X4yY=<<END","timestamp":"Jan 13 2015 23:27:26"}
+{"level":"info","message":"같지 않음","timestamp":"Jan 13 2015 23:27:26"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/292f9dc0-9492-11e4-b42f-7320472f9772?interface_id=IF_V1_0001&timestamp=1421159364322&hmac=U2FsdGVkX1/eU8stbnerCBg9qN2Z+tlLufiEd4FwP2M=<<END","timestamp":"Jan 13 2015 23:29:25"}
+{"level":"info","message":"같지 않음","timestamp":"Jan 13 2015 23:29:25"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/292f9dc0-9492-11e4-b42f-7320472f9772?interface_id=IF_V1_0001&timestamp=1421159400891&hmac=U2FsdGVkX193+DQXRVOKqr3mJcmcPg/G7Z+EVEDjrbc=<<END","timestamp":"Jan 13 2015 23:30:02"}
+{"level":"info","message":"같지 않음","timestamp":"Jan 13 2015 23:30:02"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/292f9dc0-9492-11e4-b42f-7320472f9772?interface_id=IF_V1_0001&timestamp=1421159543826&hmac=U2FsdGVkX1+wzWO5BwNfrNl+WAzGy9YaQ8TZcIqkrCM=<<END","timestamp":"Jan 13 2015 23:32:25"}
+{"level":"info","message":"같지 않음","timestamp":"Jan 13 2015 23:32:25"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/292f9dc0-9492-11e4-b42f-7320472f9772?interface_id=IF_V1_0001&timestamp=1421159934010&hmac=U2FsdGVkX19QgeDXVDiMYJVQExzOa5na0gK6s9KybEM=<<END","timestamp":"Jan 13 2015 23:38:55"}
+{"level":"info","message":"같지 않음","timestamp":"Jan 13 2015 23:38:55"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/292f9dc0-9492-11e4-b42f-7320472f9772?interface_id=IF_V1_0001&timestamp=1421159950738&hmac=U2FsdGVkX19eFy68N69GZV7NwFBBVTJNkmxdRmQGo8c=<<END","timestamp":"Jan 13 2015 23:39:12"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/292f9dc0-9492-11e4-b42f-7320472f9772?interface_id=IF_V1_0001&timestamp=1421159963570&hmac=U2FsdGVkX19YTb0Q8A2U0LnYCJd8shMtXMhbfP+jfMU=<<END","timestamp":"Jan 13 2015 23:39:24"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/292f9dc0-9492-11e4-b42f-7320472f9772?interface_id=IF_V1_0001&timestamp=1421160009258&hmac=U2FsdGVkX18GrUOEwptHT7Z3I29yLjb/IraRgbP3AaI=<<END","timestamp":"Jan 13 2015 23:40:10"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/292f9dc0-9492-11e4-b42f-7320472f9772?interface_id=IF_V1_0001&timestamp=1421160149754&hmac=U2FsdGVkX19MbBKMHVmLxHoerDxJZd3vrDYbKe2+3Z0=<<END","timestamp":"Jan 13 2015 23:42:31"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/292f9dc0-9492-11e4-b42f-7320472f9772?interface_id=IF_V1_0001&timestamp=1421160219370&hmac=U2FsdGVkX1/oY7QrkVM/vlmIwq92Q+xd9De9HzcReyo=<<END","timestamp":"Jan 13 2015 23:43:40"}
+{"level":"info","message":"time laptime: 1421160220961, Invalid Date,1591","timestamp":"Jan 13 2015 23:43:40"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/292f9dc0-9492-11e4-b42f-7320472f9772?interface_id=IF_V1_0001&timestamp=1421160253089&hmac=U2FsdGVkX1/kb41ZnDFB2ehPWmwn5EvNBNDGbJjKEiI=<<END","timestamp":"Jan 13 2015 23:44:14"}
+{"level":"info","message":"time laptime: 1421160254485, 1421160253089,1396","timestamp":"Jan 13 2015 23:44:14"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/292f9dc0-9492-11e4-b42f-7320472f9772?interface_id=IF_V1_0001&timestamp=1421160310842&hmac=U2FsdGVkX1/r5bjpEO4n+upVeN4F4cxUqjfxaVAkCq4=<<END","timestamp":"Jan 13 2015 23:45:12"}
+{"level":"info","message":"time laptime: 1421160312082, 1421160310842,1.24","timestamp":"Jan 13 2015 23:45:12"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/292f9dc0-9492-11e4-b42f-7320472f9772?interface_id=IF_V1_0001&timestamp=1421160310842&hmac=U2FsdGVkX1/r5bjpEO4n+upVeN4F4cxUqjfxaVAkCq4=<<END","timestamp":"Jan 13 2015 23:47:57"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/292f9dc0-9492-11e4-b42f-7320472f9772?interface_id=IF_V1_0001&timestamp=1421160310842&hmac=U2FsdGVkX1/r5bjpEO4n+upVeN4F4cxUqjfxaVAkCq4=<<END","timestamp":"Jan 13 2015 23:48:16"}
+{"level":"info","message":"같지 않음","timestamp":"Jan 13 2015 23:48:16"}
+{"level":"info","message":"time laptime: 1421160496175, 1421160310842,185.333","timestamp":"Jan 13 2015 23:48:16"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/292f9dc0-9492-11e4-b42f-7320472f9772?interface_id=IF_V1_0001&timestamp=1421160310842&hmac=U2FsdGVkX1/r5bjpEO4n+upVeN4F4cxUqjfxaVAkCq4=<<END","timestamp":"Jan 13 2015 23:49:00"}
+{"level":"info","message":"같지 않음1421160310842 = 1421160310842","timestamp":"Jan 13 2015 23:49:00"}
+{"level":"info","message":"time laptime: 1421160540902, 1421160310842,230.06","timestamp":"Jan 13 2015 23:49:00"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/292f9dc0-9492-11e4-b42f-7320472f9772?interface_id=IF_V1_0001&timestamp=1421160563977&hmac=U2FsdGVkX18ukhu7JmUCnDCksRcxXmsAfVsjTf2+b9I=<<END","timestamp":"Jan 13 2015 23:51:00"}
+{"level":"info","message":"같지 않음1421160563977 = 1421160563977","timestamp":"Jan 13 2015 23:51:00"}
+{"level":"info","message":"time laptime: 1421160660640, 1421160563977,96.663","timestamp":"Jan 13 2015 23:51:00"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/292f9dc0-9492-11e4-b42f-7320472f9772?interface_id=IF_V1_0001&timestamp=1421160692689&hmac=U2FsdGVkX19eBoIBZ3c0cFO54Dh4wXqv87iXQQ013/Q=<<END","timestamp":"Jan 13 2015 23:51:34"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/292f9dc0-9492-11e4-b42f-7320472f9772?interface_id=IF_V1_0001&timestamp=1421160710689&hmac=U2FsdGVkX1+5LciE0d6kjoBp/gNBq65J9ZgdPOsl8vU=<<END","timestamp":"Jan 13 2015 23:51:52"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/292f9dc0-9492-11e4-b42f-7320472f9772?interface_id=IF_V1_0001&timestamp=1421161037313&hmac=U2FsdGVkX1+iCzHGpTQAj8jmJfco6cCLfEANsvykSAI=<<END","timestamp":"Jan 13 2015 23:57:18"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/aaaaaaaaaabcdefghijklmnopqrstuvwxyz?interface_id=IF_V1_0001&timestamp=201501223459821<<END","timestamp":"Jan 14 2015 00:01:40"}
+{"level":"info","message":"같지 않음 = 201501223459821","timestamp":"Jan 14 2015 00:01:40"}
+{"level":"info","message":"time laptime: 1421161300166, 201501223459821,-200080062159.655","timestamp":"Jan 14 2015 00:01:40"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/aaaaaaaaaabcdefghijklmnopqrstuvwxyz?interface_id=IF_V1_0001&timestamp=201501223459821<<END","timestamp":"Jan 14 2015 00:02:57"}
+{"level":"info","message":"같지 않음 = 201501223459821","timestamp":"Jan 14 2015 00:02:57"}
+{"level":"info","message":"time laptime: 1421161377794, 201501223459821,-200080062082.027","timestamp":"Jan 14 2015 00:02:57"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/292f9dc0-9492-11e4-b42f-7320472f9772?timestamp=1421161037313&hmac=U2FsdGVkX1+iCzHGpTQAj8jmJfco6cCLfEANsvykSAI=<<END","timestamp":"Jan 14 2015 00:06:04"}
+{"level":"info","message":"같지 않음1421161037313 = 1421161037313","timestamp":"Jan 14 2015 00:06:04"}
+{"level":"info","message":"time laptime: 1421161564824, 1421161037313,527.511","timestamp":"Jan 14 2015 00:06:04"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/aaaaaaaaaabcdefghijklmnopqrstuvwxyz?timestamp=201501223459821&hmac=alskdfjalskfjasldkfjasl;dfkas;df<<END","timestamp":"Jan 14 2015 00:09:04"}
+{"level":"info","message":"interface_id is undefined.","timestamp":"Jan 14 2015 00:09:04"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/aaaaaaaaaabcdefghijklmnopqrstuvwxyz?timestamp=201501223459821&hmac=alskdfjalskfjasldkfjasl;dfkas;df&interface_id=AAAAA<<END","timestamp":"Jan 14 2015 00:10:04"}
+{"level":"info","message":"같지 않음 = 201501223459821","timestamp":"Jan 14 2015 00:10:04"}
+{"level":"info","message":"time laptime: 1421161804535, 201501223459821,-200080061655.286","timestamp":"Jan 14 2015 00:10:04"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/292f9dc0-9492-11e4-b42f-7320472f9772?hmac=U2FsdGVkX1+iCzHGpTQAj8jmJfco6cCLfEANsvykSAI=<<END","timestamp":"Jan 14 2015 00:13:00"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/aaaaaaaaaabcdefghijklmnopqrstuvwxyz?interface_id=AAAAA&hmac=asdlfkjaslkfjalsdfkjalsdfj<<END","timestamp":"Jan 14 2015 00:14:01"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/aaaaaaaaaabcdefghijklmnopqrstuvwxyz?interface_id=AAAAA&hmac=asdlfkjaslkfjalsdfkjalsdfj<<END","timestamp":"Jan 14 2015 00:15:53"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/aaaaaaaaaabcdefghijklmnopqrstuvwxyz?interface_id=AAAAA&hmac=asdlfkjaslkfjalsdfkjalsdfj<<END","timestamp":"Jan 14 2015 00:17:37"}
+{"level":"info","message":"[Request] Method : GET, URL : /v1/profile/292f9dc0-9492-11e4-b42f-7320472f9772?interface_id=IF_V1_0001&timestamp=1421160310842&hmac=U2FsdGVkX1/r5bjpEO4n+upVeN4F4cxUqjfxaVAkCq4=<<END","timestamp":"Jan 14 2015 00:20:02"}

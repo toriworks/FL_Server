@@ -1,0 +1,15 @@
+{
+    "app": {
+        "title":"Freelancer Management Project",
+        "port":9999,
+        "key_length":36,
+        "secret_key":"qwpgADPWGP230i1wfdnpj213r"
+    },
+    "database": {
+
+    },
+    "loglevel":"info",
+    "logfilepath":"/logger/file_log.log"
+
+
+}

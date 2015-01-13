@@ -1,0 +1,36 @@
+<html>
+<head>
+<script src="http://crypto-js.googlecode.com/svn/tags/3.0.2/build/rollups/hmac-sha256.js"></script>
+<script src="http://crypto-js.googlecode.com/svn/tags/3.0.2/build/components/enc-base64-min.js"></script>
+
+<script src="http://crypto-js.googlecode.com/svn/tags/3.1.2/build/rollups/aes.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+<script type="text/javascript">
+function callServer() {
+	var milliseconds = new Date().getTime();
+	alert(milliseconds);
+	var encrypted = CryptoJS.AES.encrypt(''+ milliseconds, "qwpgADPWGP230i1wfdnpj213r");
+
+	// $.ajax({
+ // 		url: "http://localhost:9999/v1/profile/292f9dc0-9492-11e4-b42f-7320472f9772",
+ // 		type: "GET",
+ // 		data: {timestamp:milliseconds,hmac:encrypted},
+ // 		success:function (data) {
+ //   			alert(data);
+ // 		}		
+	// });
+
+	location.href = "http://localhost:9999/v1/profile/292f9dc0-9492-11e4-b42f-7320472f9772?interface_id=IF_V1_0001&timestamp="+milliseconds+"&hmac="+encrypted;
+}
+</script>
+
+</head>
+
+<body>
+<h1>TEST hmac page</h1>
+
+<p><p>
+<a href="javascript:callServer();">GO SERVER</a>
+</body>
+</html>
