@@ -43,27 +43,6 @@ exports.get_profile_info = function(req, res) {
     headerPacket.hmac = hmac;
 
 
-    // 데이터 구성
-    //var arrData = new Array();
-    //for(var i=0; i<5; i++) {
-    //    var profileObj = new Profile();
-    //    profileObj.profile_key = profile_key;
-    //
-    //    arrData.push(profileObj);
-    //}
-
-    // 바디 패킷 생성
-    //var bodyPacket = new BodyPacket();
-    //bodyPacket.error_code = '200';
-    //bodyPacket.error_msg = 'SUCCESS';
-    //bodyPacket.body_data = arrData;
-    //
-    //packet.header = headerPacket;
-    //packet.body = bodyPacket;
-    //
-    //logger.log(_LOG_LEVEL, JSON.stringify(packet));
-
-
     // 유효성 체크 - 전달된 키값이 36자리가 아닌 경우 오류
     if(!utils.validate_key(profile_key, config.app.key_length)) {
         logger.log(_LOG_LEVEL, 'ProfileController - get_profile_info error - parameter size not valid.' + profile_key.length);
@@ -97,15 +76,55 @@ exports.get_profile_info = function(req, res) {
                 connection.release();
             }
 
-            if(rows.length > 0) {
-                //                res.json(rows);
-                res.json(rows[0].profile_key);
+            // 조회 결과 데이터 수
+            var rows_length = rows.length;
+            logger.log(_LOG_LEVEL, "조회 결과 수 : " + rows_length + "<");
+
+            if(rows_length > 0) {
+                //res.json(rows[0].profile_key);
+                logger.log(_LOG_LEVEL, "profile_key : " + rows[0].profile_key);
+                logger.log(_LOG_LEVEL, "full_name : " + rows[0].full_name);
+
+                var profile = new Profile();
+                profile.profile_key = rows[0].profile_key;
+                profile.email = rows[0].email;
+                profile.gender = rows[0].gender;
+                profile.salary = rows[0].salary;
+                profile.access_type = rows[0].access_type;
+                profile.is_user = rows[0].is_user;
+                profile.passwd = rows[0].passwd;
+                profile.email_auth_process = rows[0].email_auth_process;
+                profile.overview = rows[0].overview;
+                profile.enroll_status = rows[0].enroll_status;
+                profile.avail_loc = rows[0].avail_loc;
+                profile.is_freelancer = rows[0].is_freelancer;
+                profile.regdate = rows[0].regdate;
+                profile.moddate = rows[0].moddate;
+
+                var bodyPacket = new BodyPacket();
+                bodyPacket.error_code = '200';
+                bodyPacket.error_msg = 'SUCCESS';
+                bodyPacket.body_data = profile;
+                bodyPacket.execute_time = -1;
+
+                packet.header = headerPacket;
+                packet.body = bodyPacket;
 
             } else {
-                res.json('{\'No Data\'}');
+                // 데이터 없음
+                var bodyPacket = new BodyPacket();
+                bodyPacket.error_code = '201';
+                bodyPacket.error_msg = 'SUCCESS';
+                bodyPacket.body_data = '{\'NO DATA\'}';
+                bodyPacket.execute_time = -1;
+
+                packet.header = headerPacket;
+                packet.body = bodyPacket;
+
             }
             connection.release();
 
+            res.send(JSON.stringify(packet));
             res.status(200).end();
         });
 
