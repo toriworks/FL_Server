@@ -12,15 +12,6 @@ function callServer() {
 	alert(milliseconds);
 	var encrypted = CryptoJS.AES.encrypt(''+ milliseconds, "qwpgADPWGP230i1wfdnpj213r");
 
-	// $.ajax({
- // 		url: "http://localhost:9999/v1/profile/292f9dc0-9492-11e4-b42f-7320472f9772",
- // 		type: "GET",
- // 		data: {timestamp:milliseconds,hmac:encrypted},
- // 		success:function (data) {
- //   			alert(data);
- // 		}		
-	// });
-
 	location.href = "http://localhost:9999/v1/profile/292f9dc0-9492-11e4-b42f-7320472f9772?interface_id=IF_V1_0001&timestamp="+milliseconds+"&hmac="+encrypted;
 }
 </script>

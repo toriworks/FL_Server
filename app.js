@@ -15,6 +15,7 @@ var crypto = require('crypto-js');
 //------------------------------------------------------------------------
 var monitor = require('./controller/MonitorController');
 var profile = require('./controller/ProfileController');
+var manager = require('./controller/ManagerController');
 
 
 //------------------------------------------------------------------------
@@ -38,7 +39,8 @@ var header = {};
 var _PORT = config.app.port;
 
 // Replay Attach 한계허용초
-var REPLAY_ATTACK_LIMIT = 30;
+// REMARK : 테스트 할 때는 timestamp timeout을 막기 위해서 해당 값을 늘일 것
+var REPLAY_ATTACK_LIMIT = 30000000000 * 1000;
 
 
 // 클러스터링 기능 사용
@@ -81,6 +83,15 @@ if(cluster.ismaster) {
         // 기본 입력값 유효성 테스트
         if(interface_id === undefined || timestamp === undefined || req.query.hmac === undefined) {
             var error_code = '400';
+
+            if(interface_id === undefined) {
+                error_code = '400';
+            } else if(timestamp === undefined) {
+                error_code = '401';
+            } else if(req.query.hmac === undefined) {
+                error_code = '402'
+            }
+
             var error_msg = '필수 파라미터가 누락되었습니다..';
 
             var packet = generateAbnormalPacket(req, interface_id, timestamp, hmac, error_code, error_msg);
@@ -92,12 +103,14 @@ if(cluster.ismaster) {
 
         // 보안 유효성 테스트(1. hmac으로 전달된 값과 timestamp가 동일한지를 체크함 / 2. Replay Attack인지 체크)
         var decrypted = crypto.AES.decrypt(hmac, config.app.secret_key);
-        decrypted = decrypted.toString(crypto.enc.Utf8);
+        var decrypted_str = decrypted.toString(crypto.enc.Utf8);
+
         var now_timestamp = new Date().getTime();
         var gap_timestamp = now_timestamp - timestamp;
-        if(decrypted != timestamp || (gap_timestamp > REPLAY_ATTACK_LIMIT || gap_timestamp < 0)) {
-            var error_code = (decrypted != timestamp) ? '900' : '901';
-            var error_msg = (decrypted != timestamp) ? '-hmac 오류' : '-timestamp limit 오류';
+
+        if(decrypted_str != timestamp || (gap_timestamp > REPLAY_ATTACK_LIMIT || gap_timestamp < 0)) {
+            var error_code = (decrypted_str != timestamp) ? '900' : '901';
+            var error_msg = (decrypted_str != timestamp) ? '-hmac 오류' : '-timestamp limit 오류';
 
             var packet = generateAbnormalPacket(req, interface_id, timestamp, hmac, error_code, '정상적인 접근이 아닙니다.' + error_msg);
 
@@ -107,8 +120,6 @@ if(cluster.ismaster) {
             return;
         }
 
-        res.status(200).end();
-        return;
         next();
     });
 
@@ -139,6 +150,25 @@ if(cluster.ismaster) {
 
 
 
+
+
+
+
+
+    //------------------------------------------------------------------------
+    // Manager 핸들링
+    //------------------------------------------------------------------------
+    // IF_V1_0901 - 관리자 로그인
+    router.get('/v1/manager/login/', manager.try_login_manager);
+
+    // IF_V1_0902 - 관리자 등록
+    router.post('/v1/manager/', manager.add_manager_info);
+
+    // IF_V1_0903 - 관리자 수정
+    router.post('/v1/manager/:manager_key', manager.mod_manager_info);
+
+    // IF_V1_0999 - 이메일 중복 체크
+    router.get('/v1/manager/email/:email', manager.get_email_duplicate);
 
 
 
