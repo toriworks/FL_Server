@@ -36,11 +36,15 @@ blank_param = function() {
     return false;
 }
 
+// 문자열 관련
 String.prototype.string = function(len){var s = '', i = 0; while (i++ < len) { s += this; } return s;};
 String.prototype.zf = function(len){return "0".string(len - this.length) + this;};
 String.prototype.trim = function() { return this.replace(/(^\s*)|(\s*$)/gi, ""); }
+
+// 숫자 관련
 Number.prototype.zf = function(len){return this.toString().zf(len);};
 
+// 날짜 관련
 Date.prototype.format = function(f) {
     var d= this;
 

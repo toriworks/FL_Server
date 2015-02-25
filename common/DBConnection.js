@@ -5,7 +5,7 @@ var pool = mysql.createPool({
     port : 3306,
     user : 'toriworks',
     password : 'z1z2z3z4',
-    database:'evolic',
+    database:'freelancer',
     connectionLimit:20,
     waitForConnections:false
 });
